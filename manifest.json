@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "LightShotBrowser",
+  "short_name": "LSB",
+  "version": "1.0.0",
+  "description": "Lets you browse images on prnt.sc",
+  "author": "Kraig",
+
+
+  "web_accessible_resources": [
+    "images/*"
+  ],
+
+  "icons": {
+    "550": "images/icon.png"
+  },
+
+
+  "content_scripts": [
+    {
+      "js": [ "script.js" ],
+      "css": [ "style.css" ],
+      "matches": [ "https://prnt.sc/*" ]
+    }
+  ]
+}
