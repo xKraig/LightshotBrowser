@@ -1,5 +1,5 @@
 # LightshotBrowser
-This Chrome Extension lets you browse images on prntscr.com/prnt.sc
+This Chrome Extension lets you browse images on <a href="http://www.prnt.sc">prnt.sc</a>
 
 <H2>How to install:</H2>
 
